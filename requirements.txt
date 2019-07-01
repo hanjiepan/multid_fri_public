@@ -1,0 +1,16 @@
+# required packages
+# use:
+# while read requirement; do conda install --yes $requirement; done < requirements.txt
+# or,
+# pip install -r requirements.txt
+numpy
+scipy
+matplotlib
+mkl
+pandas
+sympy
+plotly
+joblib
+ipyparallel
+scikit-image
+numexpr

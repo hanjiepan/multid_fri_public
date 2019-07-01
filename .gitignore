@@ -1,0 +1,25 @@
+*.swp
+.idea/*
+ *.log
+ __pycache__/*
+data/Dirac_data_2d*.npz
+data/**/*.mat
+data/**/*.npz
+result/avg_perf*.npz
+result/*.pdf
+result/**/*.npz
+result/**/*.mat
+.ipynb_checkpoints/*
+*.m~
+*.log
+result/recon_3d_dirac.html
+data/reordered/*
+*.glu
+*.html
+*.tif
+*.pyc
+dask-worker-space/*
+data_recon.npz
+*.lprof
+*.ipynb
+*.tar.gz
