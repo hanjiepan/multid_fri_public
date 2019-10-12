@@ -75,7 +75,7 @@ The randomly generated signal parameters are saved under the folder `data/`.
 
 Dependencies
 ------------
-* A working distribution of Python 3 e.g., [here](https://www.anaconda.com/distribution/)
+* A working distribution of Python 3, e.g., [here](https://www.anaconda.com/distribution/)
 
 List of standard packages needed
 
@@ -95,10 +95,6 @@ System Tested
     System Info:
     ------------
     Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64
-
-    Python Packages Info (conda)
-    ----------------------------
-    # packages in environment at /Users/pan/anaconda:
     
 ### Ubuntu Linux
 | Machine | lcavsrv1                               |
@@ -110,10 +106,6 @@ System Tested
     System Info:
     ------------
     Linux 4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
-    
-    Python Packages Info (conda)
-    ----------------------------
-    # packages in environment at /home/pan/anaconda3:
    
 License
 -------
