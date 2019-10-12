@@ -96,7 +96,7 @@ if __name__ == '__main__':
         os.mkdir(result_dir)
 
     # a list of SNRs
-    # -10dB to 50dB
+    # -10dB to 40dB
     snr_seq = np.array([-10, -5, 0, 2.5, 5, 7.5,
                         10, 11, 12, 13, 14, 15,
                         20, 25, 30, 35, 40])

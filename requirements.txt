@@ -7,10 +7,7 @@ numpy
 scipy
 matplotlib
 mkl
-pandas
 sympy
 plotly
-joblib
-ipyparallel
 scikit-image
 numexpr

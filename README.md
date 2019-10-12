@@ -39,15 +39,47 @@ We are available for questions or requests relating to either the code or the th
 
 Recreate the figures
 --------------------------------------
-
+    # Efficient reconstruction of 7 Diracs in 2D from 5x5 NOISELESS ideal 
+    # low pass samples (Fig. 5)
+    python example_few_data_2d.py
+    
+    # Average reconstruction performance under different noise levels (Fig. 6)
+    python avg_perf_2d_dirac_vs_noiselevel.py
+    
+    # 2D Diracs that have shared x or y locations (Fig. 7)
+    # noiseless case (Fig. 7a)
+    python example_shared_xy_locs.py
+    # noisy case (Fig. 7b)
+    python example_shared_xy_locs_noisy.py
+    
+    # 3D Dirac reconstruction example (Fig. 8)
+    # noiseless case (Fig. 8a)
+    python example_dirac_3d_noiseless.py
+    # noisy case (Fig. 8b)
+    python example_dirac_3d_noisy.py
 
 Data used in the paper
 ----------------------
+The randomly generated signal parameters are saved under the folder `data/`.
+    
+    # Dirac parameters used in measuring the average reconstruction performance
+    # under different noise levels
+    data/signal_diff_noise/dirac_param.npz 
+    
+    # Dirac parameters with shared x or y locations
+    data/dirac_param_shared_xy.npz
+    
+    # Dirac parameters used in the 3D reconstruction example
+    data/example_3d.npz
 
 
 Dependencies
 ------------
+* A working distribution of Python 3 e.g., [here](https://www.anaconda.com/distribution/)
 
+List of standard packages needed
+
+    numpy, scipy, matplotlib, mkl, sympy, plotly, scikit-image, numexpr
 
 System Tested
 -------------

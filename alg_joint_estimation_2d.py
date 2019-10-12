@@ -4,8 +4,7 @@ import numpy as np
 from scipy import linalg
 from scipy.optimize import nnls
 
-from alg_joint_estimation_2d_efficient import dirac_recon_joint_alg_fast, \
-    dirac_recon_joint_alg_fast
+from alg_joint_estimation_2d_efficient import dirac_recon_joint_alg_fast
 from build_linear_mapping_joint2d import planar_sel_coef_subset, R_mtx_joint, \
     T_mtx_joint, planar_amp_mtx, compute_effective_num_eq_2d, convmtx2_valid
 from poly_common_roots_2d import find_roots_2d
